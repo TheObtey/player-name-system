@@ -2,7 +2,7 @@ TOPNS = TOPNS or {}
 
 if SERVER then
     
-    include("core/storage.lua")
+    TOPNS.Storage = include("core/storage.lua")
     include("core/name_validator.lua")
     include("core/name_handler.lua")
 
